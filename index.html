@@ -10,6 +10,13 @@
 		.carousel-caption {
 			background-color: rgba(0,0,0,.4);
 		}
+		@media (min-width: 768px) {
+			.centered-links {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
 	</style>
 </head>
 <body>
@@ -22,7 +29,7 @@
 			<img style="height: 100px; " class="img-fluid" src="img/logo.jpg"> 
 				<span>Doce Encanto</span>
 		</a>
-		<ul class="navbar-nav col-auto flex-md-row px-3">
+		<ul class="navbar-nav col-auto flex-md-row px-3 centered-links">
 			<li class="nav-item mx-1"> <a class="nav-link" href="#">Inicio</a></li>
 			<li class="nav-item mx-1"> <a class="nav-link" href="#">Delivery</a></li>
 			<li class="nav-item mx-1"> <a class="nav-link" href="#">Quem somos</a></li>
